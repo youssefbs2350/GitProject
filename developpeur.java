@@ -8,6 +8,10 @@ public class Developpeur {
 
      name=n;
     }
+	public String getName() {
+      	 return name;
+   }
+
     public String toString()
     {
         return "name :"+name;
