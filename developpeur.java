@@ -12,7 +12,14 @@ public class Developpeur {
      name=n;
      age=a ; 
     }
+
+	public String getName() {
+      	 return name;
+   }
+
+
     
+
     public String toString()
     {
         return "name :"+name , "age"+age ;
