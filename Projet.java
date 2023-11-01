@@ -13,9 +13,14 @@ public class Projet {
 
     }
 
+
+    public Projet(String Test){
+        Test=name;
+
     public Projet(String name){
         //test conflit
         this.name=name;
+
     }
     public Projet(String N,Developpeur dev)
     {
