@@ -9,11 +9,12 @@ public class Projet {
     }
 
     public Projet(String name){
+        //test conflit
         this.name=name;
     }
-    public Projet(String name,Developpeur dev)
+    public Projet(String N,Developpeur dev)
     {
-        this.name=name;
+        N=name;//modification islem
         this.dev=dev;
     }
     public String toString()
