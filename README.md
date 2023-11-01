@@ -1,4 +1,5 @@
 # GitProject
+
 La boite de développement « TuniProd » désire développer une application de gestion
 de ressources de magasin de produits alimentaires.
 Avant d’entamer la réalisation de ce programme, la société a commencé par une étude du
@@ -15,3 +16,4 @@ sont :
   - Ajouter un attribut « date d’expiration » de type Date et affecter des dates aux produits
 existants, et afficher le résultat.
 - 
+
