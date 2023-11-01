@@ -3,8 +3,8 @@ public class Projet {
 
     Developpeur dev;
 
-    public Projet(String name){
-        this.name=name;
+    public Projet(String Test){
+        Test=name;
     }
     public Projet(String name,Developpeur dev)
     {
