@@ -44,4 +44,5 @@ public class Magasin {
             System.out.println("Identifiant :"+tabprod[i].identifiant);
         }
     }
+    ////////
 }
