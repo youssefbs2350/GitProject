@@ -3,7 +3,6 @@ public class Produit {
     int identifiant;
     String libelle,marque;
     float prix;
-
     Date dateexp;
     public Produit(int id,String libelle,String m)
     {
@@ -32,6 +31,7 @@ public class Produit {
         identifiant=id;
     }
     public Produit(){}
+
 
 //Ajout getters et setters
    public int getIdentifiant() {
@@ -75,11 +75,16 @@ public class Produit {
     }
 
     public void afficher()
+
+
+    public void afficherproduit()
+
     {
+        System.out.println("Produit"); // ajouté par Samar
         System.out.println("identifiant :"+this.identifiant);
-        System.out.println("marque :"+marque);
-        System.out.println("libelle :"+libelle);
         System.out.println("prix :"+prix);
+        System.out.println("libelle :"+libelle);
+        System.out.println("marque :"+marque);
     }
     public String toString()
     {

@@ -1,6 +1,11 @@
 public class Projet {
     String name;
+
+    int id;
+
+
      public int ; //modification par islem
+
     Developpeur dev;
     //modification par islem
     Public String getName (){
@@ -8,9 +13,14 @@ public class Projet {
 
     }
 
+
+    public Projet(String Test){
+        Test=name;
+
     public Projet(String name){
         //test conflit
         this.name=name;
+
     }
     public Projet(String N,Developpeur dev)
     {
@@ -21,5 +31,6 @@ public class Projet {
     {
 
         return "name :"+name+" dev "+dev;
+        System.out.println("projet modifié");
     }
 }
