@@ -1,5 +1,6 @@
 public class Projet {
     String name;
+    int id;
 
     Developpeur dev;
 
@@ -15,5 +16,6 @@ public class Projet {
     {
 
         return "name :"+name+" dev "+dev;
+        System.out.println("projet modifié");
     }
 }
