@@ -2,10 +2,12 @@ import Entite.Produit;
 
 public class TestTableau {
     public static void main(String[] args) {
-        int []   tab=new int[3];
+        // modification tableau par Samar
+        int []   tab=new int[4]; //modification taille tableau
         tab[0]=12;
         tab[1]=5;
         tab[2]=67;
+        tab[3]=20; // Ajout élement
         for(int i=0;i<tab.length;i++)
         {
 
