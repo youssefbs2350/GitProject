@@ -17,6 +17,15 @@ public class Magasin {
         identifiant=id;
         adresse=ad;
     }
+//ajout get chaima
+    public int getCAPACITE_PRD() {
+        return CAPACITE_PRD;
+    }
+    //ajout set chaima 
+
+    public void setCompprod(int compprod) {
+        this.compprod = compprod;
+    }
 
     public void ajouter(Produit p)
     {
