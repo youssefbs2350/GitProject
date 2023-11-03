@@ -2,6 +2,7 @@ public class Magasin {
 
     int identifiant;
     String adresse;
+    ind id ;
 
     final int CAPACITE_PRD=50;
 
@@ -12,10 +13,11 @@ public class Magasin {
     public Magasin()
     {}
 
-    public Magasin(int id,String ad)
+    public Magasin(int id,String ad ,int id)
     {
         identifiant=id;
         adresse=ad;
+
     }
 //ajout get chaima
     public int getCAPACITE_PRD() {
