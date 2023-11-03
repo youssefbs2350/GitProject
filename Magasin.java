@@ -52,10 +52,7 @@ public class Magasin {
             System.out.println("prix :"+tabprod[i].prix);
             System.out.println("libelle :"+tabprod[i].libelle);
 
-            System.out.println("Marque "+tabprod[i].marque);
-            System.out.println("libelle "+tabprod[i].libelle);
-            System.out.println("date "+tabprod[i].dateexp);
-            System.out.println("prix "+tabprod[i].prix);
+            
 
             System.out.println("Identifiant :"+tabprod[i].identifiant);
             System.out.println("date :"+tabprod[i].dateexp);
