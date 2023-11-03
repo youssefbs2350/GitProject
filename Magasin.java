@@ -2,6 +2,7 @@ public class Magasin {
 
     int identifiant;
     String adresse;
+    ind id ;
 
     final int CAPACITE_PRD=50;
 
@@ -12,10 +13,11 @@ public class Magasin {
     public Magasin()
     {}
 
-    public Magasin(int id,String ad)
+    public Magasin(int id,String ad ,int id)
     {
         identifiant=id;
         adresse=ad;
+
     }
 //ajout get chaima
     public int getCAPACITE_PRD() {
@@ -46,11 +48,20 @@ public class Magasin {
         for (int i=0;i<compprod;i++)
         {
 
+
+            System.out.println("prix :"+tabprod[i].prix);
+            System.out.println("libelle :"+tabprod[i].libelle);
+
             System.out.println("Marque "+tabprod[i].marque);
             System.out.println("libelle "+tabprod[i].libelle);
             System.out.println("date "+tabprod[i].dateexp);
             System.out.println("prix "+tabprod[i].prix);
+
             System.out.println("Identifiant :"+tabprod[i].identifiant);
+            System.out.println("date :"+tabprod[i].dateexp);
+
+            System.out.println("Marque :"+tabprod[i].marque);
+
         }
     }
 
