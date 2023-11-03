@@ -45,5 +45,12 @@ public class Magasin {
         }
     }
 
-    ////////
+    @Override
+    public String toString() {
+        return "Magasin{" +
+                "identifiant=" + identifiant +
+                ", adresse='" + adresse + '\'' +
+                ", CAPACITE_PRD=" + CAPACITE_PRD +
+                '}';
+    }
 }
