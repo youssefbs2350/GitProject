@@ -37,12 +37,13 @@ public class Magasin {
         for (int i=0;i<compprod;i++)
         {
 
-            System.out.println("Marque :"+tabprod[i].marque);
-            System.out.println("libelle :"+tabprod[i].libelle);
-            System.out.println("date :"+tabprod[i].dateexp);
-            System.out.println("prix :"+tabprod[i].prix);
+            System.out.println("Marque "+tabprod[i].marque);
+            System.out.println("libelle "+tabprod[i].libelle);
+            System.out.println("date "+tabprod[i].dateexp);
+            System.out.println("prix "+tabprod[i].prix);
             System.out.println("Identifiant :"+tabprod[i].identifiant);
         }
     }
+
     ////////
 }
